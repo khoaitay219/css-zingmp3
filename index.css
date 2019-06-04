@@ -1,23 +1,23 @@
 body{
 	margin: 0;
 	font-family:"roboto",sans-serif,arial; 
-
+	background-color: #F3F3F3;
 }	
 /*Header----------------------------------------------------------------------------------------*/
 .header{
 	height: 60px;
 	display: flex;
-	width: 80%;
 	margin: 0 auto;
+	background-color: #fff;
 }
 
 	.logo{
 		background-image: url("./img/nhandang-1.jpg");
-		width: 12%;
+		width: 10%;
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
-		margin: 0px 40px;
+		margin: 0px 40px 0px 150px;
 	}
 
 	
@@ -95,7 +95,37 @@ body{
 /*Navigation--------------------------------------------------------------------------------*/
 
 
-.navigation{
+.nav{
 	background-color: #F7F7F7;
-	height: 60px;
+	height: 50px;
+	display: flex;
+	margin: 0 auto;
+	border-bottom: 1px solid #E4E4E4;
+}
+.nav h5{margin: 0}
+.nav .item-1{
+	display: flex;
+	align-items: center;
+	color: #92929D;
+	padding: 0 20px;
+	margin-left: 160px;
+	text-decoration: none; 
+}
+.nav .item-1:hover{
+	color: #5017b5;
+	border-bottom: 2px solid #5017b5; 
+}
+.nav .item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	vertical-align: middle;
+	color: #92929D;
+	padding: 0 20px;
+	text-decoration: none; 
+	position: relative;
+}
+.nav .item:hover{
+	color: #5017b5;
+	border-bottom: 2px solid #5017b5;
 }
