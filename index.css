@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	font-family:"roboto",sans-serif,arial; 
+
+}	
+/*Header----------------------------------------------------------------------------------------*/
+.header{
+	height: 60px;
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+	.logo{
+		background-image: url("./img/nhandang-1.jpg");
+		width: 12%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin: 0px 40px;
+	}
+
+	
+	.searching{
+	  width: 550px;
+	  vertical-align: middle;
+	  border: 1px solid #EEE;
+	  border-radius: 5px;
+	  padding: 2px;
+	  position: relative;
+	  top: 8px;
+
+	}
+		.searching .input-search{
+		  width: 500px;
+		  height: 35px;
+		  border: none;
+		  color: #63717f;
+		  padding-left: 40px;
+		  border-radius: 5px;
+		}
+			.searching .input-search:focus{
+			    outline:none;
+		  }
+		.searching .icon{
+		  position: absolute;
+		  margin-left: 10px;
+		  margin-top: 6px;
+		  color: #63717f;
+		  font-size: 20px;
+		}
+
+	.signin{
+		display: flex;
+		width: 30%;
+		margin-left: 60px;
+		position: relative;
+	}
+
+		.signin .item-1{
+			background-image: url("./img/default.jpg");
+			width: 40px;
+			height: 40px;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			border-radius: 100%;
+			position: absolute;
+			top: 10px;
+			
+		}
+
+		.signin .item-2{
+			align-items: center;
+			display: flex;
+			margin-left: 50px;
+		}
+		.signin .item-2 a{
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 0.85em;
+			align-items: center;
+		}
+		.signin .item-2 a:link {
+			color: #333;
+		}
+		.signin .item-2 a:hover {
+			color: #5017b5;
+		}
+		.signin .item-3{
+			margin: 20px 30px;
+			font-size: 20px
+		}
+
+/*Navigation--------------------------------------------------------------------------------*/
+
+
+.navigation{
+	background-color: #F7F7F7;
+	height: 60px;
+}

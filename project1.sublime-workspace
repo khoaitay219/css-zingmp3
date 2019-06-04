@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"al",
+				"vertical-align\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"bode",
+				"border\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"j",
+				"justify-content\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"ba",
+				"background-clip\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"a",
+				"auto\tgrid-template-columns"
+			],
+			[
+				"grid-t",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"gr",
+				"grid-column\tproperty"
+			],
+			[
+				"background-s",
+				"background-size\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"va",
+				"valueInfo"
+			],
+			[
+				"search",
+				"searchInput"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"too",
+				"todos"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"class",
+				"classname"
+			],
+			[
+				"w",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1173,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.html",
+			"settings":
+			{
+				"buffer_size": 19177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project1.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body{\n\tmargin: 0;\n\tfont-family:\"roboto\",sans-serif,arial; \n\n}\t\n/*Header----------------------------------------------------------------------------------------*/\n.header{\n\theight: 60px;\n\tdisplay: flex;\n\twidth: 80%;\n\tmargin: 0 auto;\n}\n\n\t.logo{\n\t\tbackground-image: url(\"./img/nhandang-1.jpg\");\n\t\twidth: 12%;\n\t\tbackground-size: contain;\n\t\tbackground-position: center;\n\t\tbackground-repeat: no-repeat;\n\t\tmargin: 0px 40px;\n\t}\n\n\t\n\t.searching{\n\t  width: 550px;\n\t  vertical-align: middle;\n\t  border: 1px solid #EEE;\n\t  border-radius: 5px;\n\t  padding: 2px;\n\t  position: relative;\n\t  top: 8px;\n\n\t}\n\t\t.searching .input-search{\n\t\t  width: 500px;\n\t\t  height: 35px;\n\t\t  border: none;\n\t\t  color: #63717f;\n\t\t  padding-left: 40px;\n\t\t  border-radius: 5px;\n\t\t}\n\t\t\t.searching .input-search:focus{\n\t\t\t    outline:none;\n\t\t  }\n\t\t.searching .icon{\n\t\t  position: absolute;\n\t\t  margin-left: 10px;\n\t\t  margin-top: 6px;\n\t\t  color: #63717f;\n\t\t  font-size: 20px;\n\t\t}\n\n\t.signin{\n\t\tdisplay: flex;\n\t\twidth: 30%;\n\t\tmargin-left: 60px;\n\t\tposition: relative;\n\t}\n\n\t\t.signin .item-1{\n\t\t\tbackground-image: url(\"./img/default.jpg\");\n\t\t\twidth: 40px;\n\t\t\theight: 40px;\n\t\t\tbackground-size: contain;\n\t\t\tbackground-position: center;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tborder-radius: 100%;\n\t\t\tposition: absolute;\n\t\t\ttop: 10px;\n\t\t\t\n\t\t}\n\n\t\t.signin .item-2{\n\t\t\talign-items: center;\n\t\t\tdisplay: flex;\n\t\t\tmargin-left: 50px;\n\t\t}\n\t\t.signin .item-2 a{\n\t\t\ttext-decoration: none;\n\t\t\tfont-weight: bold;\n\t\t\tfont-size: 0.85em;\n\t\t\talign-items: center;\n\t\t}\n\t\t.signin .item-2 a:link {\n\t\t\tcolor: #333;\n\t\t}\n\t\t.signin .item-2 a:hover {\n\t\t\tcolor: #5017b5;\n\t\t}\n\t\t.signin .item-3{\n\t\t\tmargin: 20px 30px;\n\t\t\tfont-size: 20px\n\t\t}\n\n/*Navigation--------------------------------------------------------------------------------*/\n\n\n.navigation{\n\tbackground-color: #F7F7F7;\n\theight: 60px;\n}\n",
+			"file": "index.css",
+			"file_size": 1913,
+			"file_write_time": 132041237107538440,
+			"settings":
+			{
+				"buffer_size": 1812,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project1-zingmp3"
+	],
+	"file_history":
+	[
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project1-zingmp3/code/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.css",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project1-zingmp3/code/index.css",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project1-zingmp3/code/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project1-zingmp3/img/saved_resource.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project1-zingmp3/code/style.css",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Bootstrap/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Bootstrap/part1.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Bootstrap/part1",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Bootstrap/style.css",
+		"/C/Users/Khoai Khoai/Desktop/Coder/CSS/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/CSS/style.css",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai20/public/index.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/example18.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/db.json",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai18b.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai18a.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai14b.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/index.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/example16.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/a.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai25.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai20/index.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai13b.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/firebase-debug.log",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai13c.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/example.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/bai12a.html",
+		"/C/Users/Khoai Khoai/Desktop/HTML/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								766,
+								766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4729,
+								4729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1890.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "project1.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project1.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
