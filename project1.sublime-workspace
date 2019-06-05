@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"it",
+				"item-1"
+			],
+			[
+				"c",
+				"cursor\tproperty"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"b",
+				"border\tproperty"
+			],
+			[
 				"p",
-				"padding\tproperty"
+				"position\tproperty"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"r",
+				"rgba()\tbackground-color"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
 			],
 			[
 				"l",
 				"left\tproperty"
-			],
-			[
-				"r",
-				"right\tproperty"
 			],
 			[
 				"f",
@@ -22,10 +54,6 @@
 			[
 				"bl",
 				"block\tdisplay"
-			],
-			[
-				"ba",
-				"background-color\tproperty"
 			],
 			[
 				"bo",
@@ -78,10 +106,6 @@
 			[
 				"he",
 				"height\tproperty"
-			],
-			[
-				"bac",
-				"background-image\tproperty"
 			],
 			[
 				"h",
@@ -179,7 +203,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1980,
+				"buffer_size": 2578,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -196,7 +220,7 @@
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 2410,
+				"buffer_size": 3340,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -317,15 +341,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1980,
+						"buffer_size": 2578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1817,
-								1817
+								1989,
+								1989
 							]
 						],
 						"settings":
@@ -334,7 +358,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 1176.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -374,15 +398,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2410,
+						"buffer_size": 3340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2410,
-								2410
+								2659,
+								2659
 							]
 						],
 						"settings":
@@ -391,7 +415,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1554.0,
+						"translation.y": 2183.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
