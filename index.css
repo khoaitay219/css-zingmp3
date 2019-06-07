@@ -465,3 +465,81 @@ body{
 .top100 .item:hover .overlay{
 	opacity: 1;
 }
+/*****albumhot*******************************/
+.albumhot {
+	width: 1024px;
+	height: 730px;
+	background-color: #FCFCFC;
+	border: 1px solid #E3E3E3;
+	border-top:none;
+}
+.albumhot .head{
+	display: flex;
+	color: #32323D;
+}
+.albumhot .title{
+	font-weight: bold;
+	margin:35px 0 30px 45px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.albumhot .navi{
+	display: flex;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ABABB0;
+	margin: 40px 0 30px 350px;
+}
+.albumhot .btn{
+	margin:0 20px;
+	cursor: pointer;
+}
+.albumhot .title:hover{
+	color: #5017b5;
+}
+.albumhot .btn:hover{
+	color: #5017b5;
+}
+.albumhot .container{
+	height: 273px;
+	width: 960px;
+	margin: 45px;
+	margin-top: 0;
+	display: flex;
+}
+.albumhot .item{
+	width: 210px;
+	height: 273px;
+	font-weight: bold;
+	margin-right: 30px;
+	position: relative;
+}
+.albumhot img{
+	width: 210px;
+	height: 210px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.albumhot .item p{
+	margin: 0;
+	font-size: 14px;
+	opacity: 0.3;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.albumhot .overlay{
+	width: 210px;
+	height: 210px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+.albumhot .item:hover .overlay{
+	opacity: 1;
+}

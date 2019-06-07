@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"font-weight\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
 				"ba",
 				"background-color\tproperty"
 			],
@@ -38,10 +46,6 @@
 			[
 				"font",
 				"font-size\tproperty"
-			],
-			[
-				"b",
-				"border\tproperty"
 			],
 			[
 				"bord",
@@ -90,10 +94,6 @@
 			[
 				"l",
 				"left\tproperty"
-			],
-			[
-				"f",
-				"flex\tdisplay"
 			],
 			[
 				"bl",
@@ -220,20 +220,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 6159,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 6953,
-				"encoding": "UTF-8",
+				"buffer_size": 9286,
 				"line_ending": "Windows"
 			}
 		}
@@ -279,6 +269,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project1-zingmp3/index.html",
+		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project1-zingmp3/index.css",
 		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.html",
 		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project1-zingmp3/code/index.html",
 		"/C/Users/Khoai Khoai/Desktop/Coder/Project/project2-cvonline/index.css",
@@ -344,53 +336,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6089,
-								6089
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.css",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6953,
+						"buffer_size": 9286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6841,
-								6841
+								0,
+								0
 							]
 						],
 						"settings":
@@ -399,7 +362,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5154.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
