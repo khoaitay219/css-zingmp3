@@ -141,6 +141,7 @@ body{
 	height: 343px;
 	background-image: url(./img/10279a3ee4717052450ce9172445c97a.jpg);
 	border: 1px solid #E3E3E3;
+	border-top: none;
 	position: relative;
 }
 .slidesong .button{
@@ -191,6 +192,7 @@ body{
 	width: 1024px;
 	background-color: #FCFCFC;
 	border: 1px solid #E3E3E3;
+	border-top: none;
 	position: relative;
 }
 .slidealbum .title{
@@ -271,8 +273,9 @@ body{
 .chart{
 	width: 1024px;
 	height: 640px;
-	background-color: #F2F4F6;
+	background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(242,244,246,1) 100%);
 	border: 1px solid #E3E3E3;
+	border-top: none;
 }
 .chartday{
 	width: 930px;
@@ -394,6 +397,9 @@ body{
 	margin:0 0 20px 45px;
 	cursor: pointer;
 }
+.chartweek .title:hover {
+	color: #5017b5;
+}
 .chartweek .container{
 	margin-left: 45px;
 	width: 960px;
@@ -404,4 +410,58 @@ body{
 	height: 118px;
 	margin-right: 25px;
 	cursor: pointer;
+}
+/*****top100*******************************/
+.top100 {
+	width: 1024px;
+	height: 720px;
+	background-color: #FCFCFC;
+	border: 1px solid #E3E3E3;
+	border-top:none;
+}
+.top100 .title{
+	color: #32323D;
+	font-weight: bold;
+	margin:35px 0 30px 45px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.top100 .title:hover{
+	color: #5017b5;
+}
+.top100 .container{
+	height: 273px;
+	width: 960px;
+	margin: 45px;
+	margin-top: 0;
+	display: flex;
+}
+.top100 .item{
+	width: 210px;
+	height: 273px;
+	font-weight: bold;
+	margin-right: 30px;
+	position: relative;
+}
+.top100 img{
+	width: 210px;
+	height: 210px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.top100 .overlay{
+	width: 210px;
+	height: 210px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+.top100 .item:hover .overlay{
+	opacity: 1;
 }
