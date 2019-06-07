@@ -135,15 +135,15 @@ body{
 	border-bottom: 2px solid #5017b5;
 }
 
-/*****SlideShow*******************************/
-.slideshow{
+/*****Slide Song*******************************/
+.slidesong{
 	width: 1024px;
 	height: 343px;
 	background-image: url(./img/10279a3ee4717052450ce9172445c97a.jpg);
-	border: 1px solid white;
+	border: 1px solid #E3E3E3;
 	position: relative;
 }
-.slideshow .item-1{
+.slidesong .button{
 	display: flex;
 	background-color: rgba(255,255,255,0.5);
 	width: 30px;
@@ -162,23 +162,108 @@ body{
 	top: 120px;
 	right: 0px;
 }
-.slideshow .item-1:hover{
+.slidesong .button:hover{
 	color: white;
 	background-color: rgba(116,97,167,0.5);
 }
-.slideshow .avatar{
+.slidesong .avatar{
 	position: absolute;
 	top: 270px;
 	width: 100%;
 	display: flex;
 	padding-left: 680px; 
 }
-.slideshow .item-2{
+.slidesong .item{
 	width: 56px;
 	height: 56px;
 	margin: 0px 4px; 
 	cursor: pointer;
 }
-.slideshow .item-2:hover{
+.slidesong .item:hover{
 	border: 1px solid white;
+}
+
+
+
+/*****Slide Album*******************************/
+.slidealbum{
+	height: 370px;
+	width: 1024px;
+	background-color: #FCFCFC;
+	border: 1px solid #E3E3E3;
+	position: relative;
+}
+.slidealbum .title{
+	position: absolute;
+	margin: 0;
+	top: 30px;
+	left: 30px;
+}
+.slidealbum .button{
+	display: flex;
+	background-color: rgba(0,0,0,0.05);
+	width: 30px;
+	height: 80px;
+	font-size: 25px;
+	color: rgba(0,0,0,0.5);
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	cursor: pointer;
+}
+.pre{
+	top: 130px;
+}
+.next{
+	top: 130px;
+	right: 0px;
+}
+.slidealbum .button:hover{
+	color: white;
+	background-color: rgba(116,97,167,0.5);
+}
+.slidealbum .slide{
+	position: absolute;
+	width: 964px;
+	height: 280px;
+	left: 30px;
+	top: 60px;
+	display: flex;
+}
+.slidealbum .item{
+	width: 210px;
+	height: 280px;
+	cursor:pointer;
+	color: #32323D;
+	margin:20px 15px;
+	font-weight: bold;
+	position: relative;
+}
+.slidealbum img{
+	width: 210px;
+	height: 210px;
+	margin-bottom: 10px;
+}
+.slidealbum .overlay{
+	background-color: rgba(0,0,0,0.5);
+	width: 210px;
+	height: 210px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 0;
+	color: white;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.3s;
+
+}
+.slidealbum .item:hover{
+	color: rgb(116,97,167);
+}
+.slidealbum .item:hover .overlay{
+	opacity: 1;
+	transition: all 0.5s;
 }
