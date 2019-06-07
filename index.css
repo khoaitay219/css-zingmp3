@@ -267,3 +267,141 @@ body{
 	opacity: 1;
 	transition: all 0.5s;
 }
+/*****Chart*******************************/
+.chart{
+	width: 1024px;
+	height: 640px;
+	background-color: #F2F4F6;
+	border: 1px solid #E3E3E3;
+}
+.chartday{
+	width: 930px;
+	height: 400px;
+    background: linear-gradient(0deg, rgba(38,34,48,1) 0%, rgba(53,40,84,1) 100%);
+	border-radius: 3px;
+	margin: 30px 45px;
+	display: flex;
+}
+.realtime{
+	background-image: url("./img/zingchart.png");
+	background-size: contain;
+	height: 400px;
+	width: 647px;
+	border-radius: 3px;
+}
+.chartday .list{
+	width: 283px;
+	height: 400px;
+	margin: 20px 0;
+}
+.chartday .item{
+	display: flex;
+	align-items: center;
+	width: 263px;
+	height: 67px;
+	border-radius: 5px;
+	margin: 0 10px;
+	cursor: pointer;
+	position: relative;
+}
+.chartday .item .number{
+	width: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.chartday .item-1 .number{
+	color: #498DDE;
+}
+.chartday .item-1 .percent{
+	color: #498DDE;
+}
+.chartday .item-2 .number{
+	color: #50E3C2;
+}
+.chartday .item-2 .percent{
+	color: #50E3C2;
+}
+.chartday .item-3 .number{
+	color: #E4340D;
+}
+.chartday .item-3 .percent{
+	color: #E4340D;
+}
+.chartday .item-4 .number{
+	color: #fff;
+}
+.chartday .item-4 .percent{
+	color: #fff;
+}
+.chartday .item img{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+.chartday .overlay{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	position: absolute;
+	left: 30px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+.chartday .item .title{
+	width: 45%;
+	margin: 10px;
+	color: white;
+}
+.chartday .item h5{
+	margin: 0;
+}
+.chartday .item p{
+	margin: 0;
+	font-size: 14px;
+	opacity: 0.5;
+}
+.chartday .item .percent{
+	width: 15%;
+	text-align: center;
+	font-size: 14px;
+}
+.chartday .item:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+
+.chartday .item:hover .overlay{
+	opacity: 1;
+}
+.chartday a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+.chartday .link{
+	margin-top:15px;
+	text-align: center;
+}
+
+.chartweek .title{
+	color: #32323D;
+	font-weight: bold;
+	margin:0 0 20px 45px;
+	cursor: pointer;
+}
+.chartweek .container{
+	margin-left: 45px;
+	width: 960px;
+	height: 118px;
+}
+.chartweek .item{
+	width: 210px;
+	height: 118px;
+	margin-right: 25px;
+	cursor: pointer;
+}

@@ -5,31 +5,75 @@
 		[
 			[
 				"ba",
-				"background-image\tproperty"
+				"background-color\tproperty"
 			],
 			[
-				"ma",
-				"margin\tproperty"
-			],
-			[
-				"it",
-				"item-1"
+				"back",
+				"background-color\tproperty"
 			],
 			[
 				"c",
 				"cursor\tproperty"
 			],
 			[
-				"s",
-				"solid"
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"item",
+				"item-4"
+			],
+			[
+				"it",
+				"item-3"
+			],
+			[
+				"font",
+				"font-size\tproperty"
 			],
 			[
 				"b",
 				"border\tproperty"
 			],
 			[
-				"p",
-				"position\tproperty"
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"s",
+				"solid"
 			],
 			[
 				"v",
@@ -56,20 +100,12 @@
 				"block\tdisplay"
 			],
 			[
-				"bo",
-				"border-bottom\tproperty"
-			],
-			[
 				"co",
 				"color\tproperty"
 			],
 			[
 				"te",
 				"text-align\tproperty"
-			],
-			[
-				"font",
-				"font-size\tproperty"
 			],
 			[
 				"m",
@@ -88,16 +124,8 @@
 				"border\tproperty"
 			],
 			[
-				"fo",
-				"font-size\tproperty"
-			],
-			[
 				"j",
 				"justify-content\tproperty"
-			],
-			[
-				"tex",
-				"text-decoration\tproperty"
 			],
 			[
 				"text-a",
@@ -132,10 +160,6 @@
 				"url()\tbackground-image"
 			],
 			[
-				"back",
-				"background-color\tproperty"
-			],
-			[
 				"flex",
 				"flex-direction\tproperty"
 			],
@@ -158,10 +182,6 @@
 			[
 				"padd",
 				"padding\tproperty"
-			],
-			[
-				"bor",
-				"border-radius\tproperty"
 			],
 			[
 				"va",
@@ -203,24 +223,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2578,
+				"buffer_size": 6159,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project1.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 3340,
+				"buffer_size": 6953,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -332,7 +344,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -341,15 +353,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2578,
+						"buffer_size": 6159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1989,
-								1989
+								6089,
+								6089
 							]
 						],
 						"settings":
@@ -358,7 +370,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1176.0,
+						"translation.y": 3150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -366,47 +378,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "project1.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3340,
+						"buffer_size": 6953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2659,
-								2659
+								6841,
+								6841
 							]
 						],
 						"settings":
@@ -415,7 +399,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2183.0,
+						"translation.y": 5154.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
