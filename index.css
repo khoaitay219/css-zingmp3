@@ -465,10 +465,95 @@ body{
 .top100 .item:hover .overlay{
 	opacity: 1;
 }
+/*****KindMusic*******************************/
+.kind {
+	width: 1024px;
+	height: 425px;
+	background: linear-gradient(0deg, #fcfcfc 0%, #f7f7f7 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #E3E3E3;
+	border-top:none; 
+	border-bottom: 0;
+}
+.kind .wrap{
+	width: 994px;
+	height: 380px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px #eee;
+}
+.kind .head{
+	display: flex;
+	color: #32323D;
+}
+.kind .title{
+	font-weight: bold;
+	margin:35px 0 20px 30px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.kind .navi{
+	display: flex;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ABABB0;
+	margin: 40px 0 20px 365px;
+}
+.kind .btn{
+	margin:0 20px;
+	cursor: pointer;
+}
+.kind .title:hover{
+	color: #5017b5;
+}
+.kind .btn:hover{
+	color: #5017b5;
+}
+.kind .container{
+	height: 118px;
+	width: 960px;
+	margin: 0 30px 30px;
+	display: flex;
+}
+.kind .item{
+	width: 210px;
+	height: 118px;
+	font-weight: bold;
+	margin-right: 30px;
+	position: relative;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.kind .overlay{
+	width: 210px;
+	height: 118px;
+	border-radius: 5px;
+	position: absolute;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+	color: white;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+}
+.kind img{
+	width: 210px;
+	height: 118px;
+	border-radius: 5px;
+}
+.kind p{
+	margin-top: 65px;
+	transition: all 0.5s;
+}
+.kind .item:hover p{
+	margin-top: 55px;
+	transition: all 0.5s;
+}
 /*****albumhot*******************************/
 .albumhot {
 	width: 1024px;
-	height: 730px;
+	height: 715px;
 	background-color: #FCFCFC;
 	border: 1px solid #E3E3E3;
 	border-top:none;
@@ -479,7 +564,7 @@ body{
 }
 .albumhot .title{
 	font-weight: bold;
-	margin:35px 0 30px 45px;
+	margin:20px 0 30px 45px;
 	cursor: pointer;
 	font-size: 25px;
 }
@@ -488,7 +573,7 @@ body{
 	font-size: 18px;
 	font-weight: 500;
 	color: #ABABB0;
-	margin: 40px 0 30px 350px;
+	margin: 25px 0 30px 350px;
 }
 .albumhot .btn{
 	margin:0 20px;
