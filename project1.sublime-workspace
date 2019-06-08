@@ -4,28 +4,68 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background-size\tproperty"
+				"f",
+				"fixed\tposition"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
 			],
 			[
 				"b",
 				"border\tproperty"
 			],
 			[
-				"u",
-				"url()\tbackground"
+				"mar",
+				"margin-left\tproperty"
 			],
 			[
-				"f",
-				"font-weight\tproperty"
+				"fon",
+				"font-size\tproperty"
 			],
 			[
-				"back",
-				"background-color\tproperty"
+				"margin",
+				"margin-top\tproperty"
 			],
 			[
 				"c",
-				"cursor\tproperty"
+				"class\tAttr"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"fla",
+				"float\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground"
 			],
 			[
 				"fo",
@@ -48,10 +88,6 @@
 				"item-3"
 			],
 			[
-				"font",
-				"font-size\tproperty"
-			],
-			[
 				"bord",
 				"border-radius\tproperty"
 			],
@@ -72,10 +108,6 @@
 				"max-height\tproperty"
 			],
 			[
-				"bor",
-				"border\tproperty"
-			],
-			[
 				"ma",
 				"margin\tproperty"
 			],
@@ -86,10 +118,6 @@
 			[
 				"v",
 				"vertical-align\tproperty"
-			],
-			[
-				"r",
-				"rgba()\tbackground-color"
 			],
 			[
 				"bac",
@@ -118,10 +146,6 @@
 			[
 				"al",
 				"vertical-align\tproperty"
-			],
-			[
-				"fon",
-				"font-size\tproperty"
 			],
 			[
 				"bode",
@@ -223,16 +247,24 @@
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 10730,
+				"buffer_size": 13204,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project1.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11214,
+				"buffer_size": 13331,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -314,7 +346,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -328,6 +360,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fff",
 			">\n"
 		],
 		"highlight": true,
@@ -346,7 +379,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -355,15 +388,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10730,
+						"buffer_size": 13204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9033,
-								9033
+								12632,
+								12632
 							]
 						],
 						"settings":
@@ -371,8 +404,8 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 26.0,
-						"translation.y": 7113.0,
+						"translation.x": 0.0,
+						"translation.y": 9399.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -380,19 +413,47 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
+					"file": "project1.sublime-project",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 11214,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8384,
-								8384
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12787,
+								12787
 							]
 						],
 						"settings":
@@ -401,7 +462,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4480.0,
+						"translation.y": 6342.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -412,7 +473,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -449,7 +510,7 @@
 	"project": "project1.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":

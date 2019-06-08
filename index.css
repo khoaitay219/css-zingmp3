@@ -733,6 +733,7 @@ body{
 	width: 35px;
 	height: 35px;
 	margin: 0 15px;
+	border-radius: 5px;
 }
 .footer ul{
 	color: #999;
@@ -771,3 +772,4 @@ body{
 	top: 460px;
 	font-size: 20px;
 }
+/*****End*******************************/
