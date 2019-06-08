@@ -156,10 +156,10 @@ body{
 	position: absolute;
 	cursor: pointer;
 }
-.pre{
+.slidesong .pre{
 	top: 120px;
 }
-.next{
+.slidesong .next{
 	top: 120px;
 	right: 0px;
 }
@@ -213,10 +213,10 @@ body{
 	position: absolute;
 	cursor: pointer;
 }
-.pre{
+.slidealbum .pre{
 	top: 130px;
 }
-.next{
+.slidealbum .next{
 	top: 130px;
 	right: 0px;
 }
@@ -415,9 +415,10 @@ body{
 .top100 {
 	width: 1024px;
 	height: 720px;
-	background-color: #FCFCFC;
 	border: 1px solid #E3E3E3;
-	border-top:none;
+	border-top:none; 
+	border-bottom: 0;
+	background: linear-gradient(0deg, #f7f7f7 0%, #fcfcfc 100%);
 }
 .top100 .title{
 	color: #32323D;
@@ -465,6 +466,7 @@ body{
 .top100 .item:hover .overlay{
 	opacity: 1;
 }
+
 /*****KindMusic*******************************/
 .kind {
 	width: 1024px;
@@ -557,6 +559,7 @@ body{
 	background-color: #FCFCFC;
 	border: 1px solid #E3E3E3;
 	border-top:none;
+	border-bottom: none;
 }
 .albumhot .head{
 	display: flex;
@@ -627,4 +630,78 @@ body{
 }
 .albumhot .item:hover .overlay{
 	opacity: 1;
+}
+/*****singer*******************************/
+.singer{
+	width: 1024px;
+	height: 333px;
+	border: 1px solid #E3E3E3;
+	border-top:none;
+	border-bottom: none;
+	position: relative;
+	background: linear-gradient(0deg, #fbfbfb 0%, #F1F3F5 100%);
+}
+.singer .title{
+	color: #32323D;
+	font-weight: bold;
+	margin:35px 0 30px 45px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.singer .title:hover{
+	color: #5017b5;
+}
+.singer .container{
+	margin: 0 45px;
+	width: 960px;
+	height: 210px;
+	display: flex;
+}
+.singer .item{
+	width: 210px;
+	height: 210px;
+	background-color: #F9F9F9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+.singer img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.singer p{
+	font-weight: bold;
+	color: #444;
+	cursor: pointer;
+}
+.singer p:hover{
+	color: #5017b5;
+}
+.singer .button{
+	display: flex;
+	background-color: rgba(0,0,0,0.1);
+	width: 30px;
+	height: 80px;
+	font-size: 25px;
+	color: rgba(0,0,0,0.5);
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	cursor: pointer;
+}
+.singer .pre{
+	top: 150px;
+}
+.singer .next{
+	top: 150px;
+	right: 0px;
+}
+.singer .button:hover{
+	color: white;
+	background-color: rgba(116,97,167,0.5);
 }
